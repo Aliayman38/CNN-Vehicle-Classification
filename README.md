@@ -24,10 +24,10 @@ The project includes a detailed analysis of:
 
 ### 💡 Why did the performance jump?
 The 6% absolute improvement wasn't just luck; it was achieved by focusing on **Model Variance Reduction**:
-**Ensemble Learning**: Trained 3 independent models to "average out" stochastic errors[cite: 183, 192].
-**Test-Time Augmentation (TTA)**: Aggregated predictions across horizontal flips to ensure robust inference[cite: 184].
-**Optimization Refinement**: Used **AdamW** with a **Cosine Annealing Scheduler** to find a more stable minimum[cite: 185, 193].
-**Label Smoothing**: Prevented the model from becoming over-confident and overfitting to label noise[cite: 186, 193].
+**Ensemble Learning**: Trained 3 independent models to "average out" stochastic errors.
+**Test-Time Augmentation (TTA)**: Aggregated predictions across horizontal flips to ensure robust inference.
+**Optimization Refinement**: Used **AdamW** with a **Cosine Annealing Scheduler** to find a more stable minimum.
+**Label Smoothing**: Prevented the model from becoming over-confident and overfitting to label noise.
 
   
 ## 📊 Feature Visualization
